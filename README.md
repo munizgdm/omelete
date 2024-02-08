@@ -4,7 +4,7 @@
 ### Link
 <p><a href="https://munizgdm.github.io/omelete/" target=""_blank>Live Site URL</a></p>
 
-## ✔️ Construido com:
+## Construido com:
 
 - Semântica HTML5
 - CSS3
