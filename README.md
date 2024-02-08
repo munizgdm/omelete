@@ -6,14 +6,15 @@
 
 ## ✔️ Construido com:
 
-- Semantica HTML5
+- Semântica HTML5
 - CSS3
 - Flexbox
 
 ### O que eu aprendi
 
 ```
-html
+HTML
+
 Melhorando a forma como dou um nome a class, sim era pior.
 
 <h2 class="conteudo-titulo-primario">Ingredients</h2>
@@ -27,6 +28,8 @@ Melhorando a forma como dou um nome a class, sim era pior.
 ```
 
 ```
+CSS
+
 Utilizar o Flexbox de uma maneira melhor:
 
 body {
@@ -38,3 +41,10 @@ body {
     align-items: center;
 }
 ```
+### Continue a desenvolver
+
+A ideia é continuar melhorando a minha base de HTML5 organizando melhor as classes, refinar o uso do flexbox e aprender mais sobre responsividade. 
+
+### Créditos
+
+Agradecendo ao <a href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a> que disponibiliza desafios para a comunidade. 
