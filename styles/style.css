@@ -5,6 +5,7 @@
     --main-paragraf-color: hsl(30, 10%, 34%);
     --main-font-family-young: 'Young Serif', serif;
     --main-font-family-outfit: 'Outfit', sans-serif;
+    --main-measure: 2%;
 }
 
 * {
@@ -45,8 +46,8 @@ body {
 }
 
 .conteudo-principal-informacao {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: var(--main-measure);
+    margin-bottom: var(--main-measure);
     border-bottom: solid 1px var(--main-paragrafo-color);
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .paragrafo {
-    padding-top: 20px;
+    padding-top: var(--main-measure);
     font-family: var(--main-font-family-outfit);
     font-size: 1rem;
     font-weight: 400;
@@ -66,7 +67,7 @@ body {
 }
 
 .conteudo-principal-destaque {
-    margin-top: 20px;
+    margin-top: var(--main-measure);
     width: 54vw;
     height: 170px;
     background-color: hsl(330, 100%, 98%);
@@ -79,13 +80,13 @@ body {
     color: hsl(332, 51%, 32%);
     font-family: var(--main-font-family-outfit);
     font-weight: 700;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: var(--main-measure);
+    padding-top: var(--main-measure);
 }
 
 .lista-destaque {
-    padding-left: 40px;
-    padding-top: 10px;
+    padding-left: 6%;
+    padding-top: 1%;
     font-family: var(--main-font-family-outfit);
     color: var(--main-paragrafo-color);
     font-size: 1rem;
@@ -94,7 +95,7 @@ body {
 
 .lista-destaque-espaco {
     line-height: 30px;
-    padding-left: 20px;
+    padding-left: var(--main-measure);
 }
 
 /* Ingredients */
@@ -104,12 +105,12 @@ body {
     font-family: var(--main-font-family-young);
     font-weight: 400;
     font-size: 1.6rem;
-    padding-top: 20px;
+    padding-top: var(--main-measure);
 }
 
 .lista-principal {
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: var(--main-measure);
+    padding-top: var(--main-measure);
     padding-bottom: 40px;
     font-family: var(--main-font-family-outfit);
     color: var(--main-paragrafo-color);
@@ -119,7 +120,7 @@ body {
 
 .lista-principal-espaco {
     line-height: 30px;
-    padding-left: 20px;
+    padding-left: var(--main-measure);
 }
 
 /* Instructions */
@@ -133,13 +134,13 @@ body {
     font-family: var(--main-font-family-young);
     font-weight: 400;
     font-size: 1.6rem;
-    padding-top: 20px;
+    padding-top: var(--main-measure);
 }
 
 .conteudo-secundario-lista {
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-left: var(--main-measure);
+    padding-top: var(--main-measure);
+    padding-bottom: 5%;
     font-family: var(--main-font-family-outfit);
     color: var(--main-paragrafo-color);
     font-size: 1rem;
@@ -153,7 +154,7 @@ body {
 /* Nutrition */
 
 .conteudo-terciario {
-    padding-top: 20px;
+    padding-top: var(--main-measure);
     font-family: var(--main-font-family-outfit);
     color: var(--main-paragrafo-color);
     font-size: 1rem;
@@ -188,8 +189,8 @@ body {
     font-family: var(--main-font-family-young);
     font-weight: 400;
     font-size: 1.6rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: var(--main-measure);
+    padding-bottom: var(--main-measure);
 }
 
 .logo-linkedin {
