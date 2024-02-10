@@ -19,10 +19,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
-/* CONTAINER */
+/* container */
 
 .conteudo {
     background-color: hsl(0, 0%, 100%);
@@ -34,7 +33,7 @@ body {
     margin: 100px;
 }
 
-/* MAIN CONTAINER */
+/* Main container */
 
 .conteudo-principal {
     margin: 6%;
@@ -54,13 +53,13 @@ body {
 .titulo-principal {
     font-family: var(--main-font-family-young);
     font-weight: 400;
-    font-size: 37px;
+    font-size: 2.3rem;
 }
 
 .paragrafo {
     padding-top: 20px;
     font-family: var(--main-font-family-outfit);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 22px;
     color: var(--main-paragrafo-color);
@@ -89,7 +88,7 @@ body {
     padding-top: 10px;
     font-family: var(--main-font-family-outfit);
     color: var(--main-paragrafo-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -104,7 +103,7 @@ body {
     color: var(--main-title-color);
     font-family: var(--main-font-family-young);
     font-weight: 400;
-    font-size: 27px;
+    font-size: 1.6rem;
     padding-top: 20px;
 }
 
@@ -114,7 +113,7 @@ body {
     padding-bottom: 40px;
     font-family: var(--main-font-family-outfit);
     color: var(--main-paragrafo-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -133,7 +132,7 @@ body {
     color: var(--main-title-color);
     font-family: var(--main-font-family-young);
     font-weight: 400;
-    font-size: 27px;
+    font-size: 1.6rem;
     padding-top: 20px;
 }
 
@@ -143,7 +142,7 @@ body {
     padding-bottom: 40px;
     font-family: var(--main-font-family-outfit);
     color: var(--main-paragrafo-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -157,7 +156,7 @@ body {
     padding-top: 20px;
     font-family: var(--main-font-family-outfit);
     color: var(--main-paragrafo-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -188,7 +187,7 @@ body {
     color: var(--main-title-color);
     font-family: var(--main-font-family-young);
     font-weight: 400;
-    font-size: 27px;
+    font-size: 1.6rem;
     padding-top: 20px;
     padding-bottom: 20px;
 }
